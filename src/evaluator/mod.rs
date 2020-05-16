@@ -1,8 +1,6 @@
 #![allow(dead_code)]
 use rusty_v8 as v8;
 
-pub mod point;
-
 pub struct ExecutionResult {
     pub result: String
 }
